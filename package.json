@@ -1,0 +1,28 @@
+{
+  "name": "neuralstream-news-automation",
+  "version": "1.0.0",
+  "description": "Automated news generation - fetches RSS feeds, generates AI articles, publishes to Blogger every 5 minutes",
+  "main": "automation.js",
+  "scripts": {
+    "start": "node automation.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "automation",
+    "rss",
+    "blogger",
+    "ai",
+    "content-generation"
+  ],
+  "author": "NeuralStream",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "rss-parser": "^3.13.0",
+    "googleapis": "^130.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
