@@ -32,10 +32,3 @@ jobs:
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
         run: npm start
       
-      - name: Upload logs
-          if: always()
-        uses: actions/upload-artifact@v4      
-                with:
-          name: automation-logs
-          path: automation-logs.json
-          retention-days: 7
